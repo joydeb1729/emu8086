@@ -16,8 +16,6 @@ msg1 db 10,13,"Enter A (2 digit) : $"
 msg2 db 10,13,"Enter B (2 digit) : $"
 msg3 db 10,13,"Enter C (2 digit) : $"
 
-max_msg db 10,13,"Max = $"
-min_msg db 10,13,"Min = $"
 
 .code
 
