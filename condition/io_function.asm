@@ -1,5 +1,5 @@
 ;--------------------------------------------------
-; Compare Three Numbers. Find Max and Min (Updated for 2-digit input)
+; 2 digit number i/o function sample
 ;--------------------------------------------------
 
 .model small
