@@ -10,7 +10,7 @@
 n dw 10      ; 16-bit variable for 'n'
 x dw 5       ; 16-bit variable for 'x'
 res dw 0     ; 16-bit variable to store the result
-temp dw ?    ; Temporary variable for remainder storage
+temp dw ?    ; Temporary variable for remainder storage  
 
 .code
 main proc
@@ -25,9 +25,9 @@ main proc
     cmp cx, n     ; Compare CX with n (loop limit)
     jg print_result  ; If CX > n, jump to print_result
     
-    mov ax, cx    ; Move CX (loop counter) into AX
+    mov ax, cx    ; Move CX (loop counter) into AX                
     mul bx        ; Multiply AX by BX (AX = CX * X)
-    
+                                                                   
     add res, ax   ; Add the result to 'res' (accumulate sum)
     
     inc cx        ; Increment counter
